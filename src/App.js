@@ -2,7 +2,6 @@ import './App.css';
 import Header from './components/Header';
 import Section from './components/Section';
 import ListItem from './components/ListItem';
-import Profile from './components/Profile';
 
 const gamesListData = [
   {
@@ -83,11 +82,9 @@ function App() {
       {/*incluir header aqui*/}
       <Header />
 
-      <main>
-          <Profile
-          className="profile" />
-          
+      <main> 
           <Section 
+            profile="Marcos 'kim' Lima"
             title="Meus jogos"
             subtitle="Os games que eu mais curto!!!"   
             className="games-list"
